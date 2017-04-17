@@ -1,7 +1,14 @@
 # camfollower Library
 
 A simple cam-follower generation library.
-**Includes:** some moviment generation functions (From: {1}) and a simple plate cam generation algoritm for cilindrical (roller) follower with linear moviment..
+
+**Includes:** 
+Some moviment generation functions (genfunc.py, From: {1}) and a simple plate cam generation algoritm for cilindrical (roller) follower with linear moviment (camgen.py).
+
+**Requirements:** 
+- Python 3
+- Numpy
+- For the notebook: matplotlib.
 
 The algoritm starts with a disk and removes the folower geometry for every position.
 
